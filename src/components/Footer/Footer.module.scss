@@ -1,0 +1,39 @@
+@import '../../GlobalStyle.scss';
+
+.Footer{
+    background-color: $black;
+    div{
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 15%;
+        ul{
+            margin-top: 2em;
+            h5{
+                color: $lightBlue;
+                font-family: $headerFont;
+                font-weight: 300;
+                font-size: 2.1em;
+            }
+            li{
+                list-style: none;
+                margin-top: 0.3em;
+                
+                a{
+                    color: $white;
+                    text-decoration: none;
+                    font-family: $textFont;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                }
+                a:hover{
+                    color: #fff;
+                }
+            }
+        }
+        img{
+            width: 100%;
+            margin: 2em 0;
+        }
+    }
+}
