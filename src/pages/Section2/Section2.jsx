@@ -19,6 +19,10 @@ import goal15 from '../../assets/Goals/goal15.png'
 import goal16 from '../../assets/Goals/goal16.png'
 import goal17 from '../../assets/Goals/goal17.png'
 import goal18 from '../../assets/Goals/goal18.png'
+//import Header, Nav & Footer
+import { Header } from '../../components/Header/Header'
+import { Nav } from '../../components/Nav/Nav'
+import { Footer } from '../../components/Footer/Footer'
 
 
 
