@@ -1,4 +1,4 @@
-import style from './Nav.Module.scss'
+import style from './Nav.module.scss'
 import { Link,NavLink } from 'react-router-dom'
 
 export const Nav = () => {
